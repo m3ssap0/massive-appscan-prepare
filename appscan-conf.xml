@@ -1,0 +1,11 @@
+<!--
+   Customize this configuration file.
+-->
+<Configuration>
+  <Targets>
+    <Target outputs-only="true" path=".">
+	  <Exclude>folder_to_exclude/</Exclude> 
+	  <Exclude>file_to_exclude.txt</Exclude>
+    </Target>
+  </Targets>
+</Configuration>
