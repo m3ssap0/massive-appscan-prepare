@@ -60,9 +60,7 @@ def print_separator():
 
 # Gets the right system char to concat shell commands on one line.
 def get_sys_cmd_concat_char():
-   cmd_concat_char = ";"
-   if os.name == "nt":
-      cmd_concat_char = "&&"
+   cmd_concat_char = "&&"
    return cmd_concat_char
 
 # Launches command for each project.
